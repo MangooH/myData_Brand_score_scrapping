@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "data-python-project"
+version = "0.1.0"
+description = ""
+authors = ["Minkyu Han <minkyu.han.work@gmail.com>"]
+readme = "README.md"
+packages = [{include = "data_python_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.16.0"
+gtts = "^2.4.0"
+speechrecognition = "^3.10.1"
+playsound = "1.2.2"
+webdriver-manager = "^4.0.1"
+opencv-python = "^4.8.1.78"
+pytesseract = "^0.3.10"
+pandas = "^2.1.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.27.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
